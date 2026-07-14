@@ -5,8 +5,8 @@ import re
 # ==========================
 # LOAD MODEL
 # ==========================
-model = pickle.load(open("model_nb.pkl", "rb"))
-vectorizer = pickle.load(open("tfidf.pkl", "rb"))
+model = pickle.load(open("Sentimen-Spotify-main/model_nb.pkl", "rb"))
+vectorizer = pickle.load(open("Sentimen-Spotify-main/tfidf.pkl", "rb"))
 
 # ==========================
 # PREPROCESSING
